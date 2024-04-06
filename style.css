@@ -1,0 +1,72 @@
+
+h1{
+    text-align: center;
+}
+
+.body{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    height: 80vh;
+    width: 35rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-image: linear-gradient(rgb(212, 214, 247), rgb(66, 30, 124));
+}
+
+#chats{
+    /* color: white; */
+    overflow-y: auto;
+}
+
+.message{
+    background-color: aliceblue;
+    width: 40%;
+    padding: 0.1rem 0.5rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.center{
+    text-align: center !important;
+    clear: both;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+
+.send-chat{
+    background-color: rgb(108, 117, 156);
+    height: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 25rem;
+}
+
+.btn{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}

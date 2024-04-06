@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    <!-- iss line se hm dono server ko connect kr rhe hn -->
+</head>
+<body>
+    <div class="body">
+        <h1>Chat Box</h1>
+        <div class="container"> 
+            <div id="chats">
+                <!-- <div class="message left">GS : How r u ??</div>
+                <div class="message right">Garima : Heyy buddy:)</div>   -->
+            </div>                    
+        </div>
+        <div class="send-chat">
+            <form action="#" id="form">
+                <input type="text" id="messageInp" name="messageInp">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
